@@ -29,7 +29,7 @@ GROUP BY DAY;
 
 SELECT
 	username,
-    image_url
+    	image_url
 FROM users
 LEFT JOIN photos ON users.id = photos.user_id
 WHERE image_url IS NULL;
@@ -39,8 +39,8 @@ WHERE image_url IS NULL;
 
 SELECT 
 	users.username,
-    photos.image_url,
-    COUNT(*) AS total
+    	photos.image_url,
+    	COUNT(*) AS total
 FROM photos
 INNER JOIN likes ON likes.photo_id = photos.id
 INNER JOIN users ON photos.user_id = users.id
@@ -60,7 +60,7 @@ SELECT
 
 SELECT
 	tags.tag_name,
-    COUNT(*) AS Total
+    	COUNT(*) AS Total
 FROM tags
 INNER JOIN photo_tags ON tags.id = photo_tags.tag_id
 GROUP BY tags.id
@@ -73,7 +73,7 @@ ORDER BY Total DESC LIMIT 5;
 
 SELECT
 	users.username,
-    COUNT(*) AS total_likes
+    	COUNT(*) AS total_likes
 FROM users
 INNER JOIN likes ON users.id = likes.user_id
 GROUP BY users.id

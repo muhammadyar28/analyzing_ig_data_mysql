@@ -2,7 +2,7 @@
 
 In this project I use MySQL to create a database schema for an Instagram clone.
 
-The database I work with is very similar to Instagram, where people can post pictures, comment, like posts, follow people, and include hashtags in posts.
+The application I work with is very similar to Instagram, where people can post pictures, comment, like posts, follow people, and include hashtags in posts.
 
 This means the database schema still includes many of the important tables and relationships which we would see in the real Instagram database schema.
 

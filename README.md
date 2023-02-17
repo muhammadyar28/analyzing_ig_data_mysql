@@ -10,7 +10,7 @@ The code I use to biuld the data scehema can be found in the ig_database.sql fil
 
 After creating the database, I took a large amount of data and inserted it into the tables. The code I used to insert the data can be found in the ig_data.sql file. 
 
-I then play the role of a data analyst and analyze the data given different cases and provide the solutions for each case. 
+I then play the role of a data analyst and analyzed the data given different cases and provided the solutions for each case. 
 More details about the cases and my solutions for the them can be found in the ig_data_analysis.sql file.  
 
 Overall, this project shows my ability to create a complex database, with many tables, and many relationships between those tables. Finally, it also shows my ability as a data analys, that can use MySQL and critically think through problems to come to a solution.   

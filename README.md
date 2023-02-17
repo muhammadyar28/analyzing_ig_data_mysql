@@ -1,4 +1,4 @@
-# sql_ig_database
+# sql_ig_data_analysis
 
 In this project I use MySQL to create a database schema for an Instagram clone.
 
